@@ -1,0 +1,6 @@
+{
+  "description": "Check an IRC server's health",
+  "runtime": "golang",
+  "memory": 128,
+  "timeout": 300
+}

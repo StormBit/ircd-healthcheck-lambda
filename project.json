@@ -1,0 +1,8 @@
+{
+  "name": "ircd-healthcheck-lambda",
+  "description": "An IRCd health checker",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::353003782397:role/ircd-healthcheck-lambda_lambda_function",
+  "environment": {}
+}
