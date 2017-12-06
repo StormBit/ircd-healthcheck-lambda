@@ -1,0 +1,6 @@
+[[constraint]]
+  name = "github.com/apex/go-apex"
+  version = "1.0.0"
+
+[[constraint]]
+  name = "github.com/stormbit/ircd-healthcheck"

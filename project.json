@@ -1,8 +1,13 @@
 {
-  "name": "ircd-healthcheck-lambda",
-  "description": "An IRCd health checker",
-  "memory": 128,
-  "timeout": 5,
-  "role": "arn:aws:iam::353003782397:role/ircd-healthcheck-lambda_lambda_function",
-  "environment": {}
+    "name": "ircd-healthcheck-lambda",
+    "description": "An IRCd health checker",
+    "memory": 128,
+    "timeout": 300,
+    "role": "REPLACEME",
+    "environment": {
+        "REPORTER_DYNAMO_TABLE": "REPLACEME",
+        "REPORTER_SERVERS": "REPLACEME",
+        "PUSHOVER_TOKEN": "REPLACEME",
+        "PUSHOVER_USERS": "REPLACEME"
+    }
 }

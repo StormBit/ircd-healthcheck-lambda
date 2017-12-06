@@ -1,0 +1,6 @@
+{
+    "description": "Check health of all servers and send notifications",
+    "runtime": "golang",
+    "memory": 128,
+    "timeout": 300
+}
